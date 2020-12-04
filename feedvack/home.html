@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="grid.css">
+    <link rel="stylesheet" type="text/css" href="flowchart.css">
+    <head>
+        <title>HOME</title>
+    </head>
+    <body>
+        <header >
+            <div class="back">
+                <div class="row">
+           
+                    <div class="col span-1-of-2 text-box" >
+                        <h1 >WE ARE DIGITAL</h1> 
+                        <h1 >EXAMINER</h1>
+                    </div>
+                    <div class="col span-1-of-2 imgs">
+                        <img src="ttt.gif">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="mission">
+            <div class="row">
+                <div class="col span-1-of-3 cl">
+                    <h3>OUR MISSION</h3>
+                    <p class="para" style="text-transform: uppercase">The mission we are aiming in this is to get a workload of teachers off there back and just to let teachers enjoy their time to the fulliest</p>
+                </div>
+                <div class="col span-1-of-3 cl">
+                    <h3>MOTIVATION</h3>
+                    <p class="para" style="text-transform: uppercase">after getting to know the struggle of teachers in making papers was a bit hectic so we thought of changing the scenario of making papers  </p>
+                `</div>
+                <div class="col span-1-of-3 cl">
+                    <h3>GOALS</h3>
+                    <p class="para" style="text-transform: uppercase">our main goal is to let teachers enjoy their life with less work load of maikng papers and still enjoy their time while making papers</p>
+                </div>
+            </div>
+        </section>
+        <section class="flowchart">
+            <h1>WORKING of the app</h1>
+<nav class="nav" >
+			<ul >
+				<li>
+					<a href="#">Home</a>
+					<ul>
+						<li>
+							<a href="#">LOGIN</a>
+							<ul>
+								<li>
+									<a href="#">ADD SUBJECT</a>
+									<ul>
+										<li>
+											<a href="#">SELECT PATTERN</a>
+											<ul>
+												<li>
+													<a href="#">ADD QUESTIONS</a>
+													<ul>
+														<li>
+															<a href="#">CONFIRM</a>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">SELECT SUBJECT</a>
+									<ul>
+										<li>
+											<a href="#">ADD QUESTIONS</a>
+											<ul>
+												<li>
+													<a href="#">CONFIRM</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">REGISTER</a>
+							<ul>
+								
+									<ul>
+										<li>
+											<a href="#">GOOGLE</a>
+										</li>
+										<li>
+											<a href="#">FACEBOOK</a>
+										</li>
+									</ul>
+
+							</ul>
+						</li>
+						
+					</ul>
+				</li>
+			</ul>
+		</nav>
+        </section>
+    </body>
+    <style>
+        header{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        }
+        .mission{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            grid-gap: 1rem;
+        }
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+   
+    color: #5f5c5c;
+    font-family: "Lato","Aerial";
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+.clearfix{zoom:1}
+.clearfix{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    
+}
+     
+/*--REUSEABLECODES--*/
+.row{
+    font-size: 20px;
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+    
+}
+section{
+    padding: 80px 0px 0px 0px;
+}
+.box{
+    padding: 1%;
+}
+h1,
+h2,
+h3{
+   
+    
+    font-weight: 300;
+    text-transform: uppercase;
+     letter-spacing: 1px;
+    
+}
+
+h1{
+     margin-top: 0;
+    margin-left: -40px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 5vw;
+    word-spacing: 3px;
+}
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+h3{ 
+    font-size: 100%;
+    margin-bottom: 15px;
+}
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #98afc6;
+    content: "  ";
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+        
+        .imgs{
+            float: right;
+            margin-top: 1px;
+            padding-right: 200px
+               
+        }
+        .back{
+            background-color: #00e2ff;
+            height: 79.7vh;
+            overflow: hidden;
+           
+           
+        }
+        mission{
+            margin-left: 19%
+        }
+        .para{
+            line-height: 145%;
+            width: 70%;
+            
+        }
+        .mission p{
+            line-height: 145%;
+            font-size: 17px;
+            
+        }
+        .text-box{
+
+            position: absolute;
+            width: 1160px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color:white;
+            font-size: 35px;
+            float: right
+        }
+        
+ 
+    </style>
+</html>

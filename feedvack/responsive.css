@@ -1,0 +1,7 @@
+/*large tablets or pc*/
+@media only screen and (max-width:1000px){
+    .mission p{
+        font-size: 0px;
+    
+    }
+}

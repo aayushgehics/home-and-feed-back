@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type='text/css' href="grid.css" >
+    <head>
+        <title>FEEDBACK</title>
+    </head>
+    <body style="background-color: rgb(38, 38, 38)">
+        <header>
+            <h2 style="text-align: center;
+                       margin-top: 100px;
+                       color: #656565">
+                THANK-YOU
+                </h2>
+            <h2 style="text-align: center;
+                       margin-top: 0px;
+                       color:#656565">
+                YOUR FEEDBACK IS VALUABLE
+                </h2>
+        </header>
+        <form style="text-align: center;
+                     background-color:rgb(44, 44, 44);border: 2px;
+                     box-shadow:20px;box-sizing: content-box;
+                     margin-left: auto;
+                     display: block">
+            <div class="row">
+            <div class="col span-1-of-3">
+            <label style="color: #7c7c7c">
+                FULL-NAME:
+                </label>
+                </div>
+            <div class="col span-2-of-3"> <input type="text" placeholder="NAME"style="
+                border:none;
+                border-bottom:   2px solid rgb(139, 66, 255);
+                width:50%;background-color:rgb(44, 44, 44) ;
+                display:inline">
+                </div>    
+                </div>
+           <div class="row">
+            <div class="col span-1-of-3">
+            <label style="color: #7c7c7c">E-MAIL:</label>
+                </div>
+            <div class="col span-2-of-3"> <input type="e-mail" placeholder="E-MAIL"style="border:none; 
+                border-bottom:   2px solid rgb(139, 66, 255);
+                width:50%;
+                background-color:rgb(44, 44, 44) ;
+                display:inline">
+                </div>    
+                </div>
+            <div class="row">
+            <div class="col span-1-of-3">
+            <label style="color: #7c7c7c">FIELD OF TEACHING:</label>
+                </div>
+            <div class="col span-2-of-3 "> <input type="text" placeholder="FIELD"style="border:none;
+                border-bottom:   2px solid rgb(139, 66, 255);
+                width:50%;
+                background-color:rgb(44, 44, 44) ;
+                display:inline;
+                ">
+                </div>    
+                </div>
+            <div class="row">
+            <div class="col span-1-of-3">
+            <label style="color: #7c7c7c">COMMENTS:</label>
+                </div>
+            <div class="col span-2-of-3"> <input type="textarea" placeholder="COMMENTS"style="border:none;
+                border-bottom:   2px solid rgb(139, 66, 255);
+                width:50%;
+                background-color:rgb(44, 44, 44);
+                display:inline:
+                font-display: auto">
+                </div>    
+                </div>
+            <div class="row">
+                <button style=" box-shadow: none;
+                               background-color:rgb(44, 44, 44) ;color:#7c7c7c ">SUBMIT</button>
+                
+            </div>
+            <style>
+                button:after,label:after,input:after{
+                    content: '';
+                    display: block;
+                    margin: auto;
+                    height: 3px;
+                    width: 0px;
+                    background: transparent;
+                    transition: width .2s ease,background-color .2s ease;
+                }
+                button:hover:after,label:hover:after,input:hover:after{
+                    width: 100%;
+                    background: rgb(139, 66, 255);
+                }
+                input, select, textarea{
+    color: #8b8b8b;
+}
+
+textarea:focus, input:focus {
+    color: #8b8b8b;
+}
+            </style>
+        </form>
+    </body>
+</html>
