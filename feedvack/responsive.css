@@ -1,7 +1,24 @@
 /*large tablets or pc*/
-@media only screen and (max-width:1000px){
-    .mission p{
-        font-size: 0px;
+@media only screen and (min-width:601px){
+    .text-box{
+        font-size:80px;
     
+    }
+    .imgs{
+        float: right;
+        height:100%;
+        width:500px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .text-box{
+        font-size:30px;
+    
+    }
+     .imgs{
+        float: right;
+        height:px;
+        width:500px;
     }
 }
